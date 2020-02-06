@@ -18,14 +18,14 @@ build:
 
 requirements:
   build:
-    - python >= 3.6
+    - python >=3.6
     - pip
     - setuptools
     - pbr
 
   run:
     - pbr
-    - python >= 3.6
+    - python >=3.6
     - six
     - msgpack-python
     - oslo.utils
