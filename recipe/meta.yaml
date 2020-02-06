@@ -14,10 +14,12 @@ source:
 build:
   number: 1
   script: "{{ PYTHON }} -m pip install . -vv "
+  noarch: python
 
 requirements:
   build:
     - python
+    - pip
     - setuptools
     - pbr
 
@@ -25,7 +27,7 @@ requirements:
     - pbr
     - python
     - six
-    - msgpack
+    - msgpack-python
     - oslo.utils
     - pytz
     - pyyaml
