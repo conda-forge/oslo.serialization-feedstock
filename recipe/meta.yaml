@@ -1,6 +1,6 @@
 {% set name = "oslo.serialization" %}
-{% set version = "3.0.0" %}
-{% set sha256 = "25b3903593f2d7a5c6fe87a650e31cb564098b12a10c4847c5890b68e2651b59" %}
+{% set version = "3.1.0" %}
+{% set sha256 = "c8d2de8788c4dd8900a5abacc1c29c1d36f3ead5eab392bc1e39a5dc193f78cf" %}
 
 package:
   name: {{ name|lower }}
@@ -12,8 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv "
+  number: 0
+  script: '{{ PYTHON }} -m pip install . -vv '
   noarch: python
 
 requirements:
@@ -47,11 +47,11 @@ about:
   home: https://docs.openstack.org/oslo.serialization/
   license: Apache-2.0
   license_file: LICENSE
-  summary: 'Oslo Serialization library'
-  description: | 
+  summary: Oslo Serialization library
+  description: |
     The oslo serialization library provides support for representing objects 
     in transmittable and storable formats, such as JSON and MessagePack. 
 
 extra:
   recipe-maintainers:
-    - brainstorm 
+    - brainstorm
