@@ -5,7 +5,7 @@ Home: https://docs.openstack.org/oslo.serialization/
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Oslo Serialization library
 
@@ -119,4 +119,5 @@ Feedstock Maintainers
 =====================
 
 * [@brainstorm](https://github.com/brainstorm/)
+* [@tschoonj](https://github.com/tschoonj/)
 
