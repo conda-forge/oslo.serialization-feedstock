@@ -26,11 +26,9 @@ requirements:
   run:
     - pbr
     - python >=3.6
-    - six
     - msgpack-python
     - oslo.utils
     - pytz
-    - pyyaml
 
 test:
   imports:
@@ -38,7 +36,6 @@ test:
     - oslo_serialization.base64
     - oslo_serialization.jsonutils
     - oslo_serialization.msgpackutils
-    - oslo_serialization.yamlutils
     - oslo_serialization.serializer.base_serializer
     - oslo_serialization.serializer.json_serializer
     - oslo_serialization.serializer.msgpack_serializer
@@ -55,3 +52,4 @@ about:
 extra:
   recipe-maintainers:
     - brainstorm
+    - tschoonj
