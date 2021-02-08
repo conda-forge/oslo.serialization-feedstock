@@ -1,6 +1,6 @@
 {% set name = "oslo.serialization" %}
-{% set version = "4.0.1" %}
-{% set sha256 = "f84d3dca7ffbb86394e273094c674532b6144223eca8990a38836ba99728d53e" %}
+{% set version = "4.1.0" %}
+{% set sha256 = "cecc7794df806c85cb70dbd6c2b3af19bc68047ad29e3c6442be90a0a4de5379" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   noarch: python
 
 requirements:
-  build:
+  host:
     - python >=3.6
     - pip
     - setuptools
