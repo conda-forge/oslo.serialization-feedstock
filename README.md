@@ -1,11 +1,11 @@
-About oslo.serialization
-========================
+About oslo.serialization-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oslo.serialization-feedstock/blob/main/LICENSE.txt)
 
 Home: https://docs.openstack.org/oslo.serialization/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oslo.serialization-feedstock/blob/main/LICENSE.txt)
 
 Summary: Oslo Serialization library
 
