@@ -1,6 +1,6 @@
 {% set name = "oslo.serialization" %}
-{% set version = "5.8.0" %}
-{% set sha256 = "5871a62b23f98cacd5518482941ae6d2a983e2936ed52d543ad08685dc6d2343" %}
+{% set version = "5.9.0" %}
+{% set sha256 = "5dd15a7f2ffaed25e8d3c295ee305d3b864b04e4ae3d705ad9e628d5ab8a82f8" %}
 
 package:
   name: {{ name|lower }}
